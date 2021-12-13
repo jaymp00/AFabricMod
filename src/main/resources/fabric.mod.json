@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "10",
+  "version": "${version}",
+  "name": "10",
+  "description": "A Fabric Mod",
+  "authors": [
+    "Jaymp"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/10/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "10.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.11",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
