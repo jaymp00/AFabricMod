@@ -1,9 +1,8 @@
-import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class StrongSword extends ToolMaterial {
-
+public class EndMat implements ToolMaterial {
+public static final EndMat Instance = new EndMat();
 
     @Override
     public int getDurability() {
@@ -12,7 +11,7 @@ public class StrongSword extends ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 4.0f;
+        return 6.5f;
     }
 
     @Override
@@ -32,6 +31,6 @@ public class StrongSword extends ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Item.byRawId());
+        return null;
     }
 }

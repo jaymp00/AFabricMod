@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "10",
-  "version": "${version}",
-  "name": "10",
+  "id": "wut6969",
+  "version": "1.0.0",
+  "name": "Tools Mod",
   "description": "A Fabric Mod",
   "authors": [
     "Jaymp"
@@ -11,7 +11,9 @@
   "license": "MIT",
   "icon": "assets/10/icon.png",
   "environment": "*",
-  "entrypoints": {},
+  "entrypoints": {
+    "main": ["Items"]
+  },
   "mixins": [
     "10.mixins.json"
   ],

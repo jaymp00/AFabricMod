@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "basic_tools:item/end_pickaxe"
+  }
+}
